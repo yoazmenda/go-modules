@@ -1,9 +1,9 @@
-package main
+package replicator
 
 import "testing"
 
 func TestHelloWorld(t *testing.T) {
-	if helloworld() != "Hello World!!" {
+	if replicate() != "replicate!!" {
 		t.Fatal("Test fail")
 	}
 }
